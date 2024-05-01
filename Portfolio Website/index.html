@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kirtik - Developer Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Kirtik's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi, My name is <span class="purple">Kirtik</span>
+                and I am a passionate  
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+    <hr>
+        <section class="secondSection">
+            <div class="written">
+                <span class="text-gray">What I have done so far</span>
+                <h1>My Skills</h1>
+
+            </div>
+            <div class="box">
+                <div class="vertical">
+                    <div class="verticaltext">HTML</div>
+                    <div class="verticaldesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                </div>
+                <div class="vertical">
+                    <div class="verticaltext">CSS</div>
+                    <div class="verticaldesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                </div>
+                <div class="vertical">
+                    <div class="verticaltext">JavaScript</div>
+                    <div class="verticaldesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                </div>
+                <div class="vertical">
+                    <div class="verticaltext">Basics of Java Programming</div>
+                    <div class="verticaldesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                </div>
+                <div class="vertical">
+                    <div class="verticaltext">DSA Java (In progress)</div>
+                    <div class="verticaldesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Kirtik's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="copyright text-center">
+            Copyright &copy; www.kirtikportfolio.com | All rights reserved
+        </div>
+    </footer>
+</body>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Programmer', 'Web Designer'],
+      typeSpeed: 50,
+    });
+  </script>
+<script src="script.js"></script>
+</html>

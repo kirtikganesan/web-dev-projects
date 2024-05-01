@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", sans-serif;
+
+}
+.container{
+    max-width: 80vw;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0px 12px;
+}
+.top-left{
+    width: 50%;
+
+}
+.top-right{
+    width: 50%;
+}
+.section1{
+    max-height: 100vh;
+}
+.logo{
+    font-size: 1.3rem;
+}
+.dumbellimg{
+    width: 200px;
+}
+.gymimg{
+    width: 350px;
+}
+.deal{
+    margin: 20px 0px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.buttons .btn{
+    margin: 0px 10px;
+}
+.section1 h1{
+    font-size: 1.6rem;
+}
+.section2 h1{
+    font-size: 3rem;
+}
+.section2 p{
+    padding: 0px 8px;
+    text-align: center;
+}
+.section2{
+    padding: 63px;
+}
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+    margin: 12px 2px;
+}
+.box h2{
+    font-size: 2rem;
+    padding: 12px 0px;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.section3{
+    padding: 63px;
+    margin-bottom: 140px;
+    margin-top: 40px;
+}
+.section3 table th{
+    padding: 15px 0;
+    width: 23vw;
+    border-bottom: 2px solid black;
+}
+.section3 table td{
+    border-bottom: 2px solid black;
+
+}
+.section3 table tr{
+    border-bottom: 2px solid black;
+
+}
+footer{
+    padding: 23px;
+}
+@media screen and (max-width:800px) {
+    .gymimg{
+        display: none;
+    }
+    .top-left{
+        min-width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .box{
+        flex-wrap: wrap;
+    }
+    .logo{
+        margin: 20px ;
+    }
+    .container{
+        width: 100%;
+    }
+    .dumbellimg{
+        width: 100px;
+    }
+    nav,.section1,.section2,.section3,footer{
+        width: 100vw;
+    }
+    .hr{
+        display: none;
+    }
+    .box h2{
+        font-size: 1.1rem;
+    }
+    .higlighted{
+        font-size: 0.8rem;
+    }
+    .box{
+        width: 30vw;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    .navbar{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 200px;
+    }
+    .navbar li{
+        padding: 6px 0;
+    }
+    .box{
+        width: 80vw;
+    }
+}
